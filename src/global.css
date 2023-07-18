@@ -1,0 +1,30 @@
+ion-toolbar {
+  --min-height: 52px;
+}
+
+.ios ion-searchbar {
+  --border-radius: 4px;
+  --placeholder-opacity: 0.6;
+  --placeholder-font-style: normal;
+  --color: var(--ion-color-primary-contrast);
+  --clear-button-color: var(--ion-color-primary-contrast);
+  height: 36px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.ios ion-searchbar input {
+  font-size: 14px !important;
+  padding-inline-start: 36px !important;
+  padding-inline-end: 8px !important;
+}
+
+.ios ion-searchbar .searchbar-search-icon {
+  color: var(--ion-color-primary-contrast) !important;
+  opacity: 0.6;
+  left: 12px !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  width: 16px !important;
+  height: 16px !important;
+}
